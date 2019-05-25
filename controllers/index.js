@@ -1,30 +1,37 @@
 const csvtojson = require('csvtojson')
 const excelToJson = require('convert-excel-to-json')
-const { mmrList, csvList, xlsxList } = require('../config')
+const { mmrList, csvList, xlsxList, imageList } = require('../config')
 
 const getDivisions = async (req, res) => {
-  const divisions = Object.keys(mmrList).reduce((result, key) => {
-    result.push({
-      mmr: key,
-      name: mmrList[key]
-        .split('.')[0]
-        .split('/')
-        .slice(-1)
-        .join('')
-    })
-    return result
-  }, [])
-  return res.status(200).json({ data: divisions })
+  try {
+    const divisions = Object.keys(mmrList).reduce((result, key) => {
+      result.push({
+        mmr: key,
+        name: mmrList[key]['en'],
+        name_mm: mmrList[key]['mm'],
+        image: `${req.protocol}://${req.headers.host}/${imageList[key]}`
+      })
+      return result
+    }, [])
+    return res.status(200).json({ data: divisions })
+  } catch (error) {
+    return res.status(error.statusCode || 500).json({ message: error.message })
+  }
 }
 
 const getCategories = async (req, res) => {
-  const categories = Object.keys(csvList).reduce((result, key) => {
-    result.push({
-      id: key
-    })
-    return result
-  }, [])
-  return res.status(200).json({ data: categories })
+  try {
+    const categories = Object.keys(csvList).reduce((result, key) => {
+      result.push({
+        id: key,
+        townships
+      })
+      return result
+    }, [])
+    return res.status(200).json({ data: categories })
+  } catch (error) {
+    return res.status(error.statusCode || 500).json({ message: error.message })
+  }
 }
 
 const getDataSet = async (req, res) => {
@@ -85,10 +92,11 @@ const getDataSet = async (req, res) => {
       }
     }
 
+    let divisions = []
     Object.keys(townships).forEach(key => {
       const township = townships[key][0]
       const divisionImage = `${req.protocol}://${req.headers.host}/${
-        mmrList[township['SR_PCODE']]
+        imageList[township['SR_PCODE']]
       }`
       const ext = {
         SR_PCODE: township['SR_PCODE'],
@@ -96,8 +104,8 @@ const getDataSet = async (req, res) => {
         SR_MM_NAME: township['SR_MM_NAME'],
         DIVISION_IMAGE: divisionImage
       }
-
       townships[key].forEach(t => {
+        divisions.push(t['SR_MM_NAME'])
         delete t['SR_PCODE']
         delete t['SR_NAME']
         delete t['SR_MM_NAME']
@@ -110,7 +118,7 @@ const getDataSet = async (req, res) => {
       })
     })
 
-    res.status(200).json({ data, en, mm })
+    res.status(200).json({ data, en, mm, divisions })
   } catch (error) {
     res.status(error.statusCode || 500).json({ message: error.message })
   }

@@ -2,6 +2,69 @@ const path = require('path')
 
 const filePath = path.join(__dirname, 'data')
 const mmrList = {
+  MMR001: {
+    en: 'Kachin',
+    mm: 'ကချင်ပြည်နယ်'
+  },
+  MMR002: {
+    en: 'Kayah',
+    mm: 'ကယားပြည်နယ်'
+  },
+  MMR003: {
+    en: 'Kayin',
+    mm: 'ကရင်ပြည်နယ်'
+  },
+  MMR004: {
+    en: 'Chin',
+    mm: 'ချင်းပြည်နယ်'
+  },
+  MMR005: {
+    en: 'Sagaing',
+    mm: 'စစ်ကိုင်းတိုင်းဒေသကြီး'
+  },
+  MMR006: {
+    en: 'Tanintharyi',
+    mm: 'တနင်္သာရီတိုင်းဒေသကြီး'
+  },
+  MMR009: {
+    en: 'Bago',
+    mm: 'မကွေးတိုင်းဒေသကြီး'
+  },
+  MMR010: {
+    en: 'Magway',
+    mm: 'မန္တလေးတိုင်းဒေသကြီး'
+  },
+  MMR011: {
+    en: 'Mandalay',
+    mm: 'မွန်ပြည်နယ်'
+  },
+  MMR012: {
+    en: 'Mon',
+    mm: 'ရခိုင်ပြည်နယ်'
+  },
+  MMR013: {
+    en: 'Rakhine',
+    mm: 'ရန်ကုန်ဒေသကြီး'
+  },
+  MMR017: {
+    en: 'Yangon',
+    mm: 'ဧရာဝတီတိုင်းဒေသကြီး'
+  },
+  MMR018: {
+    en: 'Shan',
+    mm: 'နေပြည်တော်'
+  },
+  MMR111: {
+    en: 'Ayeyarwady',
+    mm: 'ပဲခူးတိုင်းဒေသကြီး'
+  },
+  MMR222: {
+    en: 'Naypyitaw',
+    mm: 'ရှမ်းပြည်နယ်'
+  }
+}
+
+const imageList = {
   MMR001: 'Kachin.png',
   MMR002: 'Kayah.png',
   MMR003: 'Kayin.png',
@@ -48,8 +111,8 @@ Object.keys(csvList).map(key => {
   xlsxList[key] = path.join(filePath, xlsxList[key])
 })
 
-Object.keys(mmrList).forEach(mmr => {
-  mmrList[mmr] = `images/divisions/${mmrList[mmr]}`
+Object.keys(imageList).forEach(mmr => {
+  imageList[mmr] = `images/divisions/${imageList[mmr]}`
 })
 
-module.exports = { csvList, xlsxList, mmrList }
+module.exports = { csvList, xlsxList, mmrList, imageList }
