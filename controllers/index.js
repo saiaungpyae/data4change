@@ -34,7 +34,7 @@ const APPLICATION_INFO = async (req, res) => {
     let totals = {}
 
     for (const obj of json) {
-      const SR_PCODE = data['SR_PCODE']
+      const SR_PCODE = obj['SR_PCODE']
       const keys = Object.keys(obj)
 
       townships[SR_PCODE] = townships[SR_PCODE] || []
@@ -62,6 +62,13 @@ const APPLICATION_INFO = async (req, res) => {
         SR_MM_NAME: township['SR_MM_NAME'],
         DIVISION_IMAGE: divisionImage
       }
+
+      townships[key].forEach(t => {
+        delete t['SR_PCODE']
+        delete t['SR_NAME']
+        delete t['SR_MM_NAME']
+      })
+
       ext['TOWNSHIPS'] = townships[key]
       data.push({
         ...ext,
