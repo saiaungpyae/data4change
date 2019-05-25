@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const { APPLICATION_INFO } = require('../controllers/index')
+const { hearingDisability } = require('../controllers/index')
 
-router.route('/').get(APPLICATION_INFO)
+router.route('/hearing-disability').get(hearingDisability)
 
 module.exports = app => {
   app.use('', router)

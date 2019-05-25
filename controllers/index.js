@@ -1,9 +1,8 @@
 const csvtojson = require('csvtojson')
+const excelToJson = require('convert-excel-to-json')
 const { mmrList, csvList, xlsxList } = require('../config')
 
-const excelToJson = require('convert-excel-to-json')
-
-const APPLICATION_INFO = async (req, res) => {
+const hearingDisability = async (req, res) => {
   try {
     const xlsxJson = excelToJson({
       sourceFile: xlsxList.HearingDisability
@@ -73,5 +72,5 @@ const APPLICATION_INFO = async (req, res) => {
 }
 
 module.exports = {
-  APPLICATION_INFO
+  hearingDisability
 }

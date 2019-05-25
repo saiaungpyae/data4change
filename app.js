@@ -38,6 +38,11 @@ app.all('*', (req, res) => {
   res.status(404).json({ message: '404 Not Found' })
 })
 
+// Internal server error
+app.use((err, req, res) => {
+  res.status(500).json({ message: 'Something broke!', errors: err })
+})
+
 // Start Server
 let port = process.env.PORT || 3000
 app.listen(port, () => {
