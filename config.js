@@ -106,15 +106,15 @@ const xlsxList = {
   'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.xlsx'
 }
 const categoryList = [
-  'Hearing Disability',
   'Remembering Disability',
+  'Most Disease',
+  'Hearing Disability',
   'Seeing Disability',
   'Walking Disability',
   'Hospitals',
   'Clinics',
   'Rural Health',
   'Health Care Personal',
-  'Most Disease',
   'Hiv Aids'
 ]
 
