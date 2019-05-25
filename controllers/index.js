@@ -131,7 +131,7 @@ const getDataSet = async (req, res) => {
       })
     })
 
-    res.status(200).json({ divisions })
+    res.status(200).json({ data, en, mm })
   } catch (error) {
     res.status(error.statusCode || 500).json({ message: error.message })
   }
