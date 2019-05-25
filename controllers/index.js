@@ -2,9 +2,38 @@ const csvtojson = require('csvtojson')
 const excelToJson = require('convert-excel-to-json')
 const { mmrList, csvList, xlsxList } = require('../config')
 
-const hearingDisability = async (req, res) => {
+const getDivisions = async (req, res) => {
+  const divisions = Object.keys(mmrList).reduce((result, key) => {
+    result.push({
+      mmr: key,
+      name: mmrList[key]
+        .split('.')[0]
+        .split('/')
+        .slice(-1)
+        .join('')
+    })
+    return result
+  }, [])
+  return res.status(200).json({ data: divisions })
+}
+
+const getCategories = async (req, res) => {
+  const categories = Object.keys(csvList).reduce((result, key) => {
+    result.push({
+      id: key
+    })
+    return result
+  }, [])
+  return res.status(200).json({ data: categories })
+}
+
+const getDataSet = async (req, res) => {
   try {
     const { dataSetName } = req.params
+    const { division, filter } = req.query
+    const defaultArr = ['TS_PCODE', 'TS_NAME', 'DISHEAR_N_T']
+    const filterArr = filter ? [...JSON.parse(filter), ...defaultArr] : false
+
     if (!xlsxList[dataSetName]) {
       return res.status(404).json({ message: 'Not found' })
     }
@@ -26,16 +55,24 @@ const hearingDisability = async (req, res) => {
     let data = []
     let townships = {}
     let totals = {}
+    let township = {}
 
     for (const obj of csvJson) {
       const SR_PCODE = obj['SR_PCODE']
       const keys = Object.keys(obj)
 
-      townships[SR_PCODE] = townships[SR_PCODE] || []
-      townships[SR_PCODE].push(obj)
+      if (division && division !== SR_PCODE) continue
 
+      if (!townships[SR_PCODE]) {
+        townships[SR_PCODE] = []
+        township = JSON.parse(JSON.stringify(obj))
+      }
+      townships[SR_PCODE].push(obj)
       for (const key of keys) {
+        if (filterArr && !filterArr.includes(key)) delete obj[key]
+
         const count = +obj[key]
+
         if (!isNaN(count)) {
           totals[SR_PCODE] = totals[SR_PCODE] || {}
           totals[SR_PCODE][key] = totals[SR_PCODE][key] || 0
@@ -45,7 +82,6 @@ const hearingDisability = async (req, res) => {
     }
 
     Object.keys(townships).forEach(key => {
-      const township = townships[key][0]
       const divisionImage = `${req.protocol}://${req.headers.host}/${
         mmrList[township['SR_PCODE']]
       }`
@@ -76,5 +112,7 @@ const hearingDisability = async (req, res) => {
 }
 
 module.exports = {
-  hearingDisability
+  getDivisions,
+  getCategories,
+  getDataSet
 }

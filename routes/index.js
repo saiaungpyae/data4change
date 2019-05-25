@@ -1,9 +1,15 @@
 const express = require('express')
 const router = express.Router()
-const { hearingDisability } = require('../controllers/index')
+const {
+  getDivisions,
+  getCategories,
+  getDataSet
+} = require('../controllers/index')
 
-router.route(['/:dataSetName']).get(hearingDisability)
+router.route('/divisions').get(getDivisions)
+router.route('/categories').get(getCategories)
+router.route('/dataset/:dataSetName').get(getDataSet)
 
 module.exports = app => {
-  app.use('/dataset', router)
+  app.use('', router)
 }
