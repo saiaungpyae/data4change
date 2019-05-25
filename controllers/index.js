@@ -33,14 +33,15 @@ const APPLICATION_INFO = async (req, res) => {
     let townships = {}
     let totals = {}
 
-    for (const data of json) {
+    for (const obj of json) {
       const SR_PCODE = data['SR_PCODE']
-      townships[SR_PCODE] = townships[SR_PCODE] || []
-      townships[SR_PCODE].push(data)
+      const keys = Object.keys(obj)
 
-      const keys = Object.keys(data)
+      townships[SR_PCODE] = townships[SR_PCODE] || []
+      townships[SR_PCODE].push(townshipData)
+
       for (const key of keys) {
-        const count = +data[key]
+        const count = +obj[key]
         if (!isNaN(count)) {
           totals[SR_PCODE] = totals[SR_PCODE] || {}
           totals[SR_PCODE][key] = totals[SR_PCODE][key] || 0
@@ -52,7 +53,7 @@ const APPLICATION_INFO = async (req, res) => {
     Object.keys(townships).forEach(key => {
       const township = townships[key][0]
       const divisionImage = getDivisionImage(
-        req.headers.host,
+        `${req.protocol}://${req.headers.host}`,
         township['SR_PCODE']
       )
       const ext = {
