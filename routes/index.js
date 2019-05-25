@@ -5,5 +5,5 @@ const { hearingDisability } = require('../controllers/index')
 router.route(['/:dataSetName']).get(hearingDisability)
 
 module.exports = app => {
-  app.use('', router)
+  app.use('/dataset', router)
 }
