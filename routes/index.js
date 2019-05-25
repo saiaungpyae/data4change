@@ -7,7 +7,7 @@ const {
 } = require('../controllers/index')
 
 router.route('/divisions').get(getDivisions)
-router.route('/categories').get(getCategories)
+router.route('/divisions/:divisionId/categories').get(getCategories)
 router.route('/dataset/:dataSetName').get(getDataSet)
 
 module.exports = app => {

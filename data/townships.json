@@ -1,0 +1,1682 @@
+{
+	"MMR001": [
+		{
+			"TS_PCODE": "MMR001001",
+			"TS_NAME": "Myitkyina",
+			"TS_MM_NAME": "မြစ်ကြီးနား"
+		},
+		{
+			"TS_PCODE": "MMR001002",
+			"TS_NAME": "Waingmaw",
+			"TS_MM_NAME": "ဝိုင်းမော်"
+		},
+		{
+			"TS_PCODE": "MMR001003",
+			"TS_NAME": "Injangyang",
+			"TS_MM_NAME": "အင်ဂျန်းယန်"
+		},
+		{
+			"TS_PCODE": "MMR001004",
+			"TS_NAME": "Tanai",
+			"TS_MM_NAME": "တနိုင်း"
+		},
+		{
+			"TS_PCODE": "MMR001005",
+			"TS_NAME": "Chipwi",
+			"TS_MM_NAME": "ချီဗွေ"
+		},
+		{
+			"TS_PCODE": "MMR001006",
+			"TS_NAME": "Tsawlaw",
+			"TS_MM_NAME": "ဆော့လော်"
+		},
+		{
+			"TS_PCODE": "MMR001007",
+			"TS_NAME": "Mohnyin",
+			"TS_MM_NAME": "မိုးညှင်း"
+		},
+		{
+			"TS_PCODE": "MMR001008",
+			"TS_NAME": "Mogaung",
+			"TS_MM_NAME": "မိုးကောင်း"
+		},
+		{
+			"TS_PCODE": "MMR001009",
+			"TS_NAME": "Hpakant",
+			"TS_MM_NAME": "ဖားကန့်"
+		},
+		{
+			"TS_PCODE": "MMR001010",
+			"TS_NAME": "Bhamo",
+			"TS_MM_NAME": "ဗန်းမော်"
+		},
+		{
+			"TS_PCODE": "MMR001011",
+			"TS_NAME": "Shwegu",
+			"TS_MM_NAME": "ရွှေကူ"
+		},
+		{
+			"TS_PCODE": "MMR001012",
+			"TS_NAME": "Momauk",
+			"TS_MM_NAME": "မိုးမောက်"
+		},
+		{
+			"TS_PCODE": "MMR001013",
+			"TS_NAME": "Mansi",
+			"TS_MM_NAME": "မန်စီ"
+		},
+		{
+			"TS_PCODE": "MMR001014",
+			"TS_NAME": "Puta-O",
+			"TS_MM_NAME": "ပူတာအို"
+		},
+		{
+			"TS_PCODE": "MMR001015",
+			"TS_NAME": "Sumprabum",
+			"TS_MM_NAME": "ဆွမ်ပရာဘွမ်"
+		},
+		{
+			"TS_PCODE": "MMR001016",
+			"TS_NAME": "Machanbaw",
+			"TS_MM_NAME": "မချမ်းဘော"
+		},
+		{
+			"TS_PCODE": "MMR001017",
+			"TS_NAME": "Nawngmun",
+			"TS_MM_NAME": "နောင်မွန်း"
+		},
+		{
+			"TS_PCODE": "MMR001018",
+			"TS_NAME": "Khaunglanhpu",
+			"TS_MM_NAME": "ခေါင်လန်ဖူး"
+		}
+	],
+	"MMR002": [
+		{
+			"TS_PCODE": "MMR002001",
+			"TS_NAME": "Loikaw",
+			"TS_MM_NAME": "လွိုင်ကော်"
+		},
+		{
+			"TS_PCODE": "MMR002002",
+			"TS_NAME": "Demoso",
+			"TS_MM_NAME": "ဒီမောဆို"
+		},
+		{
+			"TS_PCODE": "MMR002003",
+			"TS_NAME": "Hpruso",
+			"TS_MM_NAME": "ဖရူဆို"
+		},
+		{
+			"TS_PCODE": "MMR002004",
+			"TS_NAME": "Shadaw",
+			"TS_MM_NAME": "ရှားတော"
+		},
+		{
+			"TS_PCODE": "MMR002005",
+			"TS_NAME": "Bawlakhe",
+			"TS_MM_NAME": "ဘောလခဲ"
+		},
+		{
+			"TS_PCODE": "MMR002006",
+			"TS_NAME": "Hpasawng",
+			"TS_MM_NAME": "ဖားဆောင်း"
+		},
+		{
+			"TS_PCODE": "MMR002007",
+			"TS_NAME": "Mese",
+			"TS_MM_NAME": "မယ်စဲ့"
+		}
+	],
+	"MMR003": [
+		{
+			"TS_PCODE": "MMR003001",
+			"TS_NAME": "Hpa-An",
+			"TS_MM_NAME": "ဘားအံ"
+		},
+		{
+			"TS_PCODE": "MMR003002",
+			"TS_NAME": "Hlaingbwe",
+			"TS_MM_NAME": "လှိုင်းဘွဲ့"
+		},
+		{
+			"TS_PCODE": "MMR003003",
+			"TS_NAME": "Hpapun",
+			"TS_MM_NAME": "ဖာပွန်"
+		},
+		{
+			"TS_PCODE": "MMR003004",
+			"TS_NAME": "Thandaunggyi",
+			"TS_MM_NAME": "သံတောင်ကြီး"
+		},
+		{
+			"TS_PCODE": "MMR003005",
+			"TS_NAME": "Myawaddy",
+			"TS_MM_NAME": "မြဝတီ"
+		},
+		{
+			"TS_PCODE": "MMR003006",
+			"TS_NAME": "Kawkareik",
+			"TS_MM_NAME": "ကော့ကရိတ်"
+		},
+		{
+			"TS_PCODE": "MMR003007",
+			"TS_NAME": "Kyainseikgyi",
+			"TS_MM_NAME": "ကြာအင်းဆိပ်ကြီး"
+		}
+	],
+	"MMR004": [
+		{
+			"TS_PCODE": "MMR004001",
+			"TS_NAME": "Falam",
+			"TS_MM_NAME": "ဖလမ်း"
+		},
+		{
+			"TS_PCODE": "MMR004002",
+			"TS_NAME": "Hakha",
+			"TS_MM_NAME": "ဟားခါး"
+		},
+		{
+			"TS_PCODE": "MMR004003",
+			"TS_NAME": "Thantlang",
+			"TS_MM_NAME": "ထန်တလန်"
+		},
+		{
+			"TS_PCODE": "MMR004004",
+			"TS_NAME": "Tedim",
+			"TS_MM_NAME": "တီးတိန်"
+		},
+		{
+			"TS_PCODE": "MMR004005",
+			"TS_NAME": "Tonzang",
+			"TS_MM_NAME": "တွန်းဇံ"
+		},
+		{
+			"TS_PCODE": "MMR004006",
+			"TS_NAME": "Mindat",
+			"TS_MM_NAME": "မင်းတပ်"
+		},
+		{
+			"TS_PCODE": "MMR004007",
+			"TS_NAME": "Matupi",
+			"TS_MM_NAME": "မတူပီ"
+		},
+		{
+			"TS_PCODE": "MMR004008",
+			"TS_NAME": "Kanpetlet",
+			"TS_MM_NAME": "ကန်ပက်လက်"
+		},
+		{
+			"TS_PCODE": "MMR004009",
+			"TS_NAME": "Paletwa",
+			"TS_MM_NAME": "ပလက်ဝ"
+		}
+	],
+	"MMR005": [
+		{
+			"TS_PCODE": "MMR005001",
+			"TS_NAME": "Sagaing",
+			"TS_MM_NAME": "စစ်ကိုင်း"
+		},
+		{
+			"TS_PCODE": "MMR005002",
+			"TS_NAME": "Myinmu",
+			"TS_MM_NAME": "မြင်းမူ"
+		},
+		{
+			"TS_PCODE": "MMR005003",
+			"TS_NAME": "Myaung",
+			"TS_MM_NAME": "မြောင်"
+		},
+		{
+			"TS_PCODE": "MMR005004",
+			"TS_NAME": "Shwebo",
+			"TS_MM_NAME": "ရွှေဘို"
+		},
+		{
+			"TS_PCODE": "MMR005005",
+			"TS_NAME": "Khin-U",
+			"TS_MM_NAME": "ခင်ဦး"
+		},
+		{
+			"TS_PCODE": "MMR005006",
+			"TS_NAME": "Wetlet",
+			"TS_MM_NAME": "ဝက်လက်"
+		},
+		{
+			"TS_PCODE": "MMR005007",
+			"TS_NAME": "Kanbalu",
+			"TS_MM_NAME": "ကန့်ဘလူ"
+		},
+		{
+			"TS_PCODE": "MMR005008",
+			"TS_NAME": "Kyunhla",
+			"TS_MM_NAME": "ကျွန်းလှ"
+		},
+		{
+			"TS_PCODE": "MMR005009",
+			"TS_NAME": "Ye-U",
+			"TS_MM_NAME": "ရေဦး"
+		},
+		{
+			"TS_PCODE": "MMR005010",
+			"TS_NAME": "Tabayin",
+			"TS_MM_NAME": "ဒီပဲယင်း"
+		},
+		{
+			"TS_PCODE": "MMR005011",
+			"TS_NAME": "Taze",
+			"TS_MM_NAME": "တန့်ဆည်"
+		},
+		{
+			"TS_PCODE": "MMR005012",
+			"TS_NAME": "Monywa",
+			"TS_MM_NAME": "မုံရွာ"
+		},
+		{
+			"TS_PCODE": "MMR005013",
+			"TS_NAME": "Budalin",
+			"TS_MM_NAME": "ဘုတလင်"
+		},
+		{
+			"TS_PCODE": "MMR005014",
+			"TS_NAME": "Ayadaw",
+			"TS_MM_NAME": "အရာတော်"
+		},
+		{
+			"TS_PCODE": "MMR005015",
+			"TS_NAME": "Chaung-U",
+			"TS_MM_NAME": "ချောင်းဦး"
+		},
+		{
+			"TS_PCODE": "MMR005016",
+			"TS_NAME": "Yinmabin",
+			"TS_MM_NAME": "ယင်းမာပင်"
+		},
+		{
+			"TS_PCODE": "MMR005017",
+			"TS_NAME": "Kani",
+			"TS_MM_NAME": "ကနီ"
+		},
+		{
+			"TS_PCODE": "MMR005018",
+			"TS_NAME": "Salingyi",
+			"TS_MM_NAME": "ဆားလင်းကြီး"
+		},
+		{
+			"TS_PCODE": "MMR005019",
+			"TS_NAME": "Pale",
+			"TS_MM_NAME": "ပုလဲ"
+		},
+		{
+			"TS_PCODE": "MMR005020",
+			"TS_NAME": "Katha",
+			"TS_MM_NAME": "ကသာ"
+		},
+		{
+			"TS_PCODE": "MMR005021",
+			"TS_NAME": "Indaw",
+			"TS_MM_NAME": "အင်းတော်"
+		},
+		{
+			"TS_PCODE": "MMR005022",
+			"TS_NAME": "Tigyaing",
+			"TS_MM_NAME": "ထီးချိုင့်"
+		},
+		{
+			"TS_PCODE": "MMR005023",
+			"TS_NAME": "Banmauk",
+			"TS_MM_NAME": "ဗန်းမောက်"
+		},
+		{
+			"TS_PCODE": "MMR005024",
+			"TS_NAME": "Kawlin",
+			"TS_MM_NAME": "ကောလင်း"
+		},
+		{
+			"TS_PCODE": "MMR005025",
+			"TS_NAME": "Wuntho",
+			"TS_MM_NAME": "ဝန်းသို"
+		},
+		{
+			"TS_PCODE": "MMR005026",
+			"TS_NAME": "Pinlebu",
+			"TS_MM_NAME": "ပင်လည်ဘူး"
+		},
+		{
+			"TS_PCODE": "MMR005027",
+			"TS_NAME": "Kale",
+			"TS_MM_NAME": "ကလေး"
+		},
+		{
+			"TS_PCODE": "MMR005028",
+			"TS_NAME": "Kalewa",
+			"TS_MM_NAME": "ကလေးဝ"
+		},
+		{
+			"TS_PCODE": "MMR005029",
+			"TS_NAME": "Mingin",
+			"TS_MM_NAME": "မင်းကင်း"
+		},
+		{
+			"TS_PCODE": "MMR005030",
+			"TS_NAME": "Tamu",
+			"TS_MM_NAME": "တမူး"
+		},
+		{
+			"TS_PCODE": "MMR005031",
+			"TS_NAME": "Mawlaik",
+			"TS_MM_NAME": "မော်လိုက်"
+		},
+		{
+			"TS_PCODE": "MMR005032",
+			"TS_NAME": "Paungbyin",
+			"TS_MM_NAME": "ဖေါင်းပြင်"
+		},
+		{
+			"TS_PCODE": "MMR005033",
+			"TS_NAME": "Hkamti",
+			"TS_MM_NAME": "ခန္တီး"
+		},
+		{
+			"TS_PCODE": "MMR005034",
+			"TS_NAME": "Homalin",
+			"TS_MM_NAME": "ဟုမ္မလင်း"
+		},
+		{
+			"TS_PCODE": "MMR005035",
+			"TS_NAME": "Lay Shi",
+			"TS_MM_NAME": "လေရှီး"
+		},
+		{
+			"TS_PCODE": "MMR005036",
+			"TS_NAME": "Lahe",
+			"TS_MM_NAME": "လဟယ်"
+		},
+		{
+			"TS_PCODE": "MMR005037",
+			"TS_NAME": "Nanyun",
+			"TS_MM_NAME": "နန်းယွန်း"
+		}
+	],
+	"MMR006": [
+		{
+			"TS_PCODE": "MMR006001",
+			"TS_NAME": "Dawei",
+			"TS_MM_NAME": "ထားဝယ်"
+		},
+		{
+			"TS_PCODE": "MMR006002",
+			"TS_NAME": "Launglon",
+			"TS_MM_NAME": "လောင်းလုံ"
+		},
+		{
+			"TS_PCODE": "MMR006003",
+			"TS_NAME": "Thayetchaung",
+			"TS_MM_NAME": "သရက်ချောင်း"
+		},
+		{
+			"TS_PCODE": "MMR006004",
+			"TS_NAME": "Yebyu",
+			"TS_MM_NAME": "ရေဖြူ"
+		},
+		{
+			"TS_PCODE": "MMR006005",
+			"TS_NAME": "Myeik",
+			"TS_MM_NAME": "မြိတ်"
+		},
+		{
+			"TS_PCODE": "MMR006006",
+			"TS_NAME": "Kyunsu",
+			"TS_MM_NAME": "ကျွန်းစု"
+		},
+		{
+			"TS_PCODE": "MMR006007",
+			"TS_NAME": "Palaw",
+			"TS_MM_NAME": "ပုလော"
+		},
+		{
+			"TS_PCODE": "MMR006008",
+			"TS_NAME": "Tanintharyi",
+			"TS_MM_NAME": "တနင်္သာရီ"
+		},
+		{
+			"TS_PCODE": "MMR006009",
+			"TS_NAME": "Kawthoung",
+			"TS_MM_NAME": "ကော့သောင်း"
+		},
+		{
+			"TS_PCODE": "MMR006010",
+			"TS_NAME": "Bokpyin",
+			"TS_MM_NAME": "ဘုတ်ပြင်း"
+		}
+	],
+	"MMR009": [
+		{
+			"TS_PCODE": "MMR009001",
+			"TS_NAME": "Magway",
+			"TS_MM_NAME": "မကွေး"
+		},
+		{
+			"TS_PCODE": "MMR009002",
+			"TS_NAME": "Yenangyaung",
+			"TS_MM_NAME": "ရေနံချောင်း"
+		},
+		{
+			"TS_PCODE": "MMR009003",
+			"TS_NAME": "Chauk",
+			"TS_MM_NAME": "ချောက်"
+		},
+		{
+			"TS_PCODE": "MMR009004",
+			"TS_NAME": "Taungdwingyi",
+			"TS_MM_NAME": "တောင်တွင်းကြီး"
+		},
+		{
+			"TS_PCODE": "MMR009005",
+			"TS_NAME": "Myothit",
+			"TS_MM_NAME": "မြို့သစ်"
+		},
+		{
+			"TS_PCODE": "MMR009006",
+			"TS_NAME": "Natmauk",
+			"TS_MM_NAME": "နတ်မောက်"
+		},
+		{
+			"TS_PCODE": "MMR009007",
+			"TS_NAME": "Minbu",
+			"TS_MM_NAME": "မင်းဘူး"
+		},
+		{
+			"TS_PCODE": "MMR009008",
+			"TS_NAME": "Pwintbyu",
+			"TS_MM_NAME": "ပွင့်ဖြူ"
+		},
+		{
+			"TS_PCODE": "MMR009009",
+			"TS_NAME": "Ngape",
+			"TS_MM_NAME": "ငဖဲ"
+		},
+		{
+			"TS_PCODE": "MMR009010",
+			"TS_NAME": "Salin",
+			"TS_MM_NAME": "စလင်း"
+		},
+		{
+			"TS_PCODE": "MMR009011",
+			"TS_NAME": "Sidoktaya",
+			"TS_MM_NAME": "စေတုတ္တရာ"
+		},
+		{
+			"TS_PCODE": "MMR009012",
+			"TS_NAME": "Thayet",
+			"TS_MM_NAME": "သရက်"
+		},
+		{
+			"TS_PCODE": "MMR009013",
+			"TS_NAME": "Minhla",
+			"TS_MM_NAME": "မင်းလှ"
+		},
+		{
+			"TS_PCODE": "MMR009014",
+			"TS_NAME": "Mindon",
+			"TS_MM_NAME": "မင်းတုန်း"
+		},
+		{
+			"TS_PCODE": "MMR009015",
+			"TS_NAME": "Kamma",
+			"TS_MM_NAME": "ကံမ"
+		},
+		{
+			"TS_PCODE": "MMR009016",
+			"TS_NAME": "Aunglan",
+			"TS_MM_NAME": "အောင်လံ"
+		},
+		{
+			"TS_PCODE": "MMR009017",
+			"TS_NAME": "Sinbaungwe",
+			"TS_MM_NAME": "ဆင်ပေါင်ဝဲ"
+		},
+		{
+			"TS_PCODE": "MMR009018",
+			"TS_NAME": "Pakokku",
+			"TS_MM_NAME": "ပခုက္ကူ"
+		},
+		{
+			"TS_PCODE": "MMR009019",
+			"TS_NAME": "Yesagyo",
+			"TS_MM_NAME": "ရေစကြို"
+		},
+		{
+			"TS_PCODE": "MMR009020",
+			"TS_NAME": "Myaing",
+			"TS_MM_NAME": "မြိုင်"
+		},
+		{
+			"TS_PCODE": "MMR009021",
+			"TS_NAME": "Pauk",
+			"TS_MM_NAME": "ပေါက်"
+		},
+		{
+			"TS_PCODE": "MMR009022",
+			"TS_NAME": "Seikphyu",
+			"TS_MM_NAME": "ဆိပ်ဖြူ"
+		},
+		{
+			"TS_PCODE": "MMR009023",
+			"TS_NAME": "Gangaw",
+			"TS_MM_NAME": "ဂန့်ဂေါ"
+		},
+		{
+			"TS_PCODE": "MMR009024",
+			"TS_NAME": "Tilin",
+			"TS_MM_NAME": "ထီးလင်း"
+		},
+		{
+			"TS_PCODE": "MMR009025",
+			"TS_NAME": "Saw",
+			"TS_MM_NAME": "ဆော"
+		}
+	],
+	"MMR010": [
+		{
+			"TS_PCODE": "MMR010001",
+			"TS_NAME": "Aungmyaythazan",
+			"TS_MM_NAME": "အောင်မြေသာဇံ"
+		},
+		{
+			"TS_PCODE": "MMR010002",
+			"TS_NAME": "Chanayethazan",
+			"TS_MM_NAME": "ချမ်းအေးသာဇံ"
+		},
+		{
+			"TS_PCODE": "MMR010003",
+			"TS_NAME": "Mahaaungmyay",
+			"TS_MM_NAME": "မဟာအောင်မြေ"
+		},
+		{
+			"TS_PCODE": "MMR010004",
+			"TS_NAME": "Chanmyathazi",
+			"TS_MM_NAME": "ချမ်းမြသာစည်"
+		},
+		{
+			"TS_PCODE": "MMR010005",
+			"TS_NAME": "Pyigyitagon",
+			"TS_MM_NAME": "ပြည်ကြီးတံခွန်"
+		},
+		{
+			"TS_PCODE": "MMR010006",
+			"TS_NAME": "Amarapura",
+			"TS_MM_NAME": "အမရပူရ"
+		},
+		{
+			"TS_PCODE": "MMR010007",
+			"TS_NAME": "Patheingyi",
+			"TS_MM_NAME": "ပုသိမ်ကြီး"
+		},
+		{
+			"TS_PCODE": "MMR010008",
+			"TS_NAME": "Pyinoolwin",
+			"TS_MM_NAME": "ပြင်ဦးလွင်"
+		},
+		{
+			"TS_PCODE": "MMR010009",
+			"TS_NAME": "Madaya",
+			"TS_MM_NAME": "မတ္တရာ"
+		},
+		{
+			"TS_PCODE": "MMR010010",
+			"TS_NAME": "Singu",
+			"TS_MM_NAME": "စဉ့်ကူး"
+		},
+		{
+			"TS_PCODE": "MMR010011",
+			"TS_NAME": "Mogoke",
+			"TS_MM_NAME": "မိုးကုတ်"
+		},
+		{
+			"TS_PCODE": "MMR010012",
+			"TS_NAME": "Thabeikkyin",
+			"TS_MM_NAME": "သပိတ်ကျဉ်း"
+		},
+		{
+			"TS_PCODE": "MMR010013",
+			"TS_NAME": "Kyaukse",
+			"TS_MM_NAME": "ကျောက်ဆည်"
+		},
+		{
+			"TS_PCODE": "MMR010014",
+			"TS_NAME": "Sintgaing",
+			"TS_MM_NAME": "စဉ့်ကိုင်"
+		},
+		{
+			"TS_PCODE": "MMR010015",
+			"TS_NAME": "Myittha",
+			"TS_MM_NAME": "မြစ်သား"
+		},
+		{
+			"TS_PCODE": "MMR010016",
+			"TS_NAME": "Tada-U",
+			"TS_MM_NAME": "တံတားဦး"
+		},
+		{
+			"TS_PCODE": "MMR010017",
+			"TS_NAME": "Myingyan",
+			"TS_MM_NAME": "မြင်းခြံ"
+		},
+		{
+			"TS_PCODE": "MMR010018",
+			"TS_NAME": "Taungtha",
+			"TS_MM_NAME": "တောင်သာ"
+		},
+		{
+			"TS_PCODE": "MMR010019",
+			"TS_NAME": "Natogyi",
+			"TS_MM_NAME": "နွားထိုးကြီး"
+		},
+		{
+			"TS_PCODE": "MMR010020",
+			"TS_NAME": "Kyaukpadaung",
+			"TS_MM_NAME": "ကျောက်ပန်းတောင်း"
+		},
+		{
+			"TS_PCODE": "MMR010021",
+			"TS_NAME": "Ngazun",
+			"TS_MM_NAME": "ငါန်းဇွန်"
+		},
+		{
+			"TS_PCODE": "MMR010022",
+			"TS_NAME": "Nyaung-U",
+			"TS_MM_NAME": "ညောင်ဦး"
+		},
+		{
+			"TS_PCODE": "MMR010023",
+			"TS_NAME": "Yamethin",
+			"TS_MM_NAME": "ရမည်းသင်း"
+		},
+		{
+			"TS_PCODE": "MMR010024",
+			"TS_NAME": "Pyawbwe",
+			"TS_MM_NAME": "ပျော်ဘွယ်"
+		},
+		{
+			"TS_PCODE": "MMR010028",
+			"TS_NAME": "Meiktila",
+			"TS_MM_NAME": "မိတ္ထီလာ"
+		},
+		{
+			"TS_PCODE": "MMR010029",
+			"TS_NAME": "Mahlaing",
+			"TS_MM_NAME": "မလှိုင်"
+		},
+		{
+			"TS_PCODE": "MMR010030",
+			"TS_NAME": "Thazi",
+			"TS_MM_NAME": "သာစည်"
+		},
+		{
+			"TS_PCODE": "MMR010031",
+			"TS_NAME": "Wundwin",
+			"TS_MM_NAME": "ဝမ်းတွင်း"
+		}
+	],
+	"MMR011": [
+		{
+			"TS_PCODE": "MMR011001",
+			"TS_NAME": "Mawlamyine",
+			"TS_MM_NAME": "မော်လမြိုင်"
+		},
+		{
+			"TS_PCODE": "MMR011002",
+			"TS_NAME": "Kyaikmaraw",
+			"TS_MM_NAME": "ကျိုက္မရော"
+		},
+		{
+			"TS_PCODE": "MMR011003",
+			"TS_NAME": "Chaungzon",
+			"TS_MM_NAME": "ချောင်းဆုံ"
+		},
+		{
+			"TS_PCODE": "MMR011004",
+			"TS_NAME": "Thanbyuzayat",
+			"TS_MM_NAME": "သံဖြူဇရပ်"
+		},
+		{
+			"TS_PCODE": "MMR011005",
+			"TS_NAME": "Mudon",
+			"TS_MM_NAME": "မုဒုံ"
+		},
+		{
+			"TS_PCODE": "MMR011006",
+			"TS_NAME": "Ye",
+			"TS_MM_NAME": "ရေး"
+		},
+		{
+			"TS_PCODE": "MMR011007",
+			"TS_NAME": "Thaton",
+			"TS_MM_NAME": "သထုံ"
+		},
+		{
+			"TS_PCODE": "MMR011008",
+			"TS_NAME": "Paung",
+			"TS_MM_NAME": "ပေါင်"
+		},
+		{
+			"TS_PCODE": "MMR011009",
+			"TS_NAME": "Kyaikto",
+			"TS_MM_NAME": "ကျိုက်ထို"
+		},
+		{
+			"TS_PCODE": "MMR011010",
+			"TS_NAME": "Bilin",
+			"TS_MM_NAME": "ဘီးလင်း"
+		}
+	],
+	"MMR012": [
+		{
+			"TS_PCODE": "MMR012001",
+			"TS_NAME": "Sittwe",
+			"TS_MM_NAME": "စစ်တွေ"
+		},
+		{
+			"TS_PCODE": "MMR012002",
+			"TS_NAME": "Ponnagyun",
+			"TS_MM_NAME": "ပုဏ္ဏားကျွန်း"
+		},
+		{
+			"TS_PCODE": "MMR012003",
+			"TS_NAME": "Mrauk-U",
+			"TS_MM_NAME": "မြောက်ဦး"
+		},
+		{
+			"TS_PCODE": "MMR012004",
+			"TS_NAME": "Kyauktaw",
+			"TS_MM_NAME": "ကျောက်တော်"
+		},
+		{
+			"TS_PCODE": "MMR012005",
+			"TS_NAME": "Minbya",
+			"TS_MM_NAME": "မင်းပြား"
+		},
+		{
+			"TS_PCODE": "MMR012006",
+			"TS_NAME": "Myebon",
+			"TS_MM_NAME": "မြေပုံ"
+		},
+		{
+			"TS_PCODE": "MMR012007",
+			"TS_NAME": "Pauktaw",
+			"TS_MM_NAME": "ပေါက်တော"
+		},
+		{
+			"TS_PCODE": "MMR012008",
+			"TS_NAME": "Rathedaung",
+			"TS_MM_NAME": "ရသေ့တောင်"
+		},
+		{
+			"TS_PCODE": "MMR012009",
+			"TS_NAME": "Maungdaw",
+			"TS_MM_NAME": "မောင်တော"
+		},
+		{
+			"TS_PCODE": "MMR012010",
+			"TS_NAME": "Buthidaung",
+			"TS_MM_NAME": "ဘူးသီးတောင်"
+		},
+		{
+			"TS_PCODE": "MMR012011",
+			"TS_NAME": "Kyaukpyu",
+			"TS_MM_NAME": "ကျောက်ဖြူ"
+		},
+		{
+			"TS_PCODE": "MMR012012",
+			"TS_NAME": "Munaung",
+			"TS_MM_NAME": "မာန်အောင်"
+		},
+		{
+			"TS_PCODE": "MMR012013",
+			"TS_NAME": "Ramree",
+			"TS_MM_NAME": "ရမ်းဗြဲ"
+		},
+		{
+			"TS_PCODE": "MMR012014",
+			"TS_NAME": "Ann",
+			"TS_MM_NAME": "အမ်း"
+		},
+		{
+			"TS_PCODE": "MMR012015",
+			"TS_NAME": "Thandwe",
+			"TS_MM_NAME": "သံတွဲ"
+		},
+		{
+			"TS_PCODE": "MMR012016",
+			"TS_NAME": "Toungup",
+			"TS_MM_NAME": "တောင်ကုတ်"
+		},
+		{
+			"TS_PCODE": "MMR012017",
+			"TS_NAME": "Gwa",
+			"TS_MM_NAME": "ဂွ"
+		}
+	],
+	"MMR013": [
+		{
+			"TS_PCODE": "MMR013001",
+			"TS_NAME": "Insein",
+			"TS_MM_NAME": "အင်းစိန်"
+		},
+		{
+			"TS_PCODE": "MMR013002",
+			"TS_NAME": "Mingaladon",
+			"TS_MM_NAME": "မင်္ဂလာဒုံ"
+		},
+		{
+			"TS_PCODE": "MMR013003",
+			"TS_NAME": "Hmawbi",
+			"TS_MM_NAME": "မှော်ဘီ"
+		},
+		{
+			"TS_PCODE": "MMR013004",
+			"TS_NAME": "Hlegu",
+			"TS_MM_NAME": "လှည်းကူး"
+		},
+		{
+			"TS_PCODE": "MMR013005",
+			"TS_NAME": "Taikkyi",
+			"TS_MM_NAME": "တိုက်ကြီး"
+		},
+		{
+			"TS_PCODE": "MMR013006",
+			"TS_NAME": "Htantabin",
+			"TS_MM_NAME": "ထန်းတပင်"
+		},
+		{
+			"TS_PCODE": "MMR013007",
+			"TS_NAME": "Shwepyithar",
+			"TS_MM_NAME": "ရွှေပြည်သာ"
+		},
+		{
+			"TS_PCODE": "MMR013008",
+			"TS_NAME": "Hlaingtharya",
+			"TS_MM_NAME": "လှိုင်သာယာ"
+		},
+		{
+			"TS_PCODE": "MMR013009",
+			"TS_NAME": "Thingangyun",
+			"TS_MM_NAME": "သင်္ဃန်းကျွန်း"
+		},
+		{
+			"TS_PCODE": "MMR013010",
+			"TS_NAME": "Yankin",
+			"TS_MM_NAME": "ရန်ကင်း"
+		},
+		{
+			"TS_PCODE": "MMR013011",
+			"TS_NAME": "South Okkalapa",
+			"TS_MM_NAME": "တောင်ဥက္ကလာပ"
+		},
+		{
+			"TS_PCODE": "MMR013012",
+			"TS_NAME": "North Okkalapa",
+			"TS_MM_NAME": "မြောက်ဥက္ကလာပ"
+		},
+		{
+			"TS_PCODE": "MMR013013",
+			"TS_NAME": "Thaketa",
+			"TS_MM_NAME": "သာကေတ"
+		},
+		{
+			"TS_PCODE": "MMR013014",
+			"TS_NAME": "Dawbon",
+			"TS_MM_NAME": "ဒေါပုံ"
+		},
+		{
+			"TS_PCODE": "MMR013015",
+			"TS_NAME": "Tamwe",
+			"TS_MM_NAME": "တာမွေ"
+		},
+		{
+			"TS_PCODE": "MMR013016",
+			"TS_NAME": "Pazundaung",
+			"TS_MM_NAME": "ပုဇွန်တောင်"
+		},
+		{
+			"TS_PCODE": "MMR013017",
+			"TS_NAME": "Botahtaung",
+			"TS_MM_NAME": "ဗိုလ်တထောင်"
+		},
+		{
+			"TS_PCODE": "MMR013018",
+			"TS_NAME": "Dagon Myothit (South)",
+			"TS_MM_NAME": "ဒဂုံမြို့သစ်တောင်ပိုင်း"
+		},
+		{
+			"TS_PCODE": "MMR013019",
+			"TS_NAME": "Dagon Myothit (North)",
+			"TS_MM_NAME": "ဒဂုံမြို့သစ်မြောက်ပိုင်း"
+		},
+		{
+			"TS_PCODE": "MMR013020",
+			"TS_NAME": "Dagon Myothit (East)",
+			"TS_MM_NAME": "ဒဂုံမြို့သစ်အရှေ့ပိုင်း"
+		},
+		{
+			"TS_PCODE": "MMR013021",
+			"TS_NAME": "Dagon Myothit (Seikkan)",
+			"TS_MM_NAME": "ဒဂုံမြို့သစ်ဆိပ်ကမ်း"
+		},
+		{
+			"TS_PCODE": "MMR013022",
+			"TS_NAME": "Mingalartaungnyunt",
+			"TS_MM_NAME": "မင်္ဂလာတောင်ညွန့်"
+		},
+		{
+			"TS_PCODE": "MMR013023",
+			"TS_NAME": "Thanlyin",
+			"TS_MM_NAME": "သန်လျှင်"
+		},
+		{
+			"TS_PCODE": "MMR013024",
+			"TS_NAME": "Kyauktan",
+			"TS_MM_NAME": "ကျောက်တန်း"
+		},
+		{
+			"TS_PCODE": "MMR013025",
+			"TS_NAME": "Thongwa",
+			"TS_MM_NAME": "သုံးခွ"
+		},
+		{
+			"TS_PCODE": "MMR013026",
+			"TS_NAME": "Kayan",
+			"TS_MM_NAME": "ခရမ်း"
+		},
+		{
+			"TS_PCODE": "MMR013027",
+			"TS_NAME": "Twantay",
+			"TS_MM_NAME": "တွံတေး"
+		},
+		{
+			"TS_PCODE": "MMR013028",
+			"TS_NAME": "Kawhmu",
+			"TS_MM_NAME": "ကော့မှုး"
+		},
+		{
+			"TS_PCODE": "MMR013029",
+			"TS_NAME": "Kungyangon",
+			"TS_MM_NAME": "ကွမ်းခြံကုန်း"
+		},
+		{
+			"TS_PCODE": "MMR013030",
+			"TS_NAME": "Dala",
+			"TS_MM_NAME": "ဒလ"
+		},
+		{
+			"TS_PCODE": "MMR013031",
+			"TS_NAME": "Seikgyikanaungto",
+			"TS_MM_NAME": "ဆိပ်ကြီးခနောင်တို"
+		},
+		{
+			"TS_PCODE": "MMR013032",
+			"TS_NAME": "Cocokyun",
+			"TS_MM_NAME": "ကိုကိုးကျွန်း"
+		},
+		{
+			"TS_PCODE": "MMR013033",
+			"TS_NAME": "Kyauktada",
+			"TS_MM_NAME": "ကျောက်တံတား"
+		},
+		{
+			"TS_PCODE": "MMR013034",
+			"TS_NAME": "Pabedan",
+			"TS_MM_NAME": "ပန်းပဲတန်း"
+		},
+		{
+			"TS_PCODE": "MMR013035",
+			"TS_NAME": "Lanmadaw",
+			"TS_MM_NAME": "လမ်းမတော်"
+		},
+		{
+			"TS_PCODE": "MMR013036",
+			"TS_NAME": "Latha",
+			"TS_MM_NAME": "လသာ"
+		},
+		{
+			"TS_PCODE": "MMR013037",
+			"TS_NAME": "Ahlone",
+			"TS_MM_NAME": "အလုံ"
+		},
+		{
+			"TS_PCODE": "MMR013038",
+			"TS_NAME": "Kyeemyindaing",
+			"TS_MM_NAME": "ကြည့်မြင်တိုင်"
+		},
+		{
+			"TS_PCODE": "MMR013039",
+			"TS_NAME": "Sanchaung",
+			"TS_MM_NAME": "စမ်းချောင်း"
+		},
+		{
+			"TS_PCODE": "MMR013040",
+			"TS_NAME": "Hlaing",
+			"TS_MM_NAME": "လှိုင်"
+		},
+		{
+			"TS_PCODE": "MMR013041",
+			"TS_NAME": "Kamaryut",
+			"TS_MM_NAME": "ကမာရွတ်"
+		},
+		{
+			"TS_PCODE": "MMR013042",
+			"TS_NAME": "Mayangone",
+			"TS_MM_NAME": "မရမ်းကုန်း"
+		},
+		{
+			"TS_PCODE": "MMR013043",
+			"TS_NAME": "Dagon",
+			"TS_MM_NAME": "ဒဂုံ"
+		},
+		{
+			"TS_PCODE": "MMR013044",
+			"TS_NAME": "Bahan",
+			"TS_MM_NAME": "ဗဟန်း"
+		},
+		{
+			"TS_PCODE": "MMR013045",
+			"TS_NAME": "Seikkan",
+			"TS_MM_NAME": "ဆိပ်ကမ်း"
+		}
+	],
+	"MMR017": [
+		{
+			"TS_PCODE": "MMR017001",
+			"TS_NAME": "Pathein",
+			"TS_MM_NAME": "ပုသိမ်"
+		},
+		{
+			"TS_PCODE": "MMR017002",
+			"TS_NAME": "Kangyidaunt",
+			"TS_MM_NAME": "ကန်ကြီးထောင့်"
+		},
+		{
+			"TS_PCODE": "MMR017003",
+			"TS_NAME": "Thabaung",
+			"TS_MM_NAME": "သာပေါင်း"
+		},
+		{
+			"TS_PCODE": "MMR017004",
+			"TS_NAME": "Ngapudaw",
+			"TS_MM_NAME": "ငပုတော"
+		},
+		{
+			"TS_PCODE": "MMR017005",
+			"TS_NAME": "Kyonpyaw",
+			"TS_MM_NAME": "ကျုံပျော်"
+		},
+		{
+			"TS_PCODE": "MMR017006",
+			"TS_NAME": "Yegyi",
+			"TS_MM_NAME": "ရေကြည်"
+		},
+		{
+			"TS_PCODE": "MMR017007",
+			"TS_NAME": "Kyaunggon",
+			"TS_MM_NAME": "ကျောင်းကုန်း"
+		},
+		{
+			"TS_PCODE": "MMR017008",
+			"TS_NAME": "Hinthada",
+			"TS_MM_NAME": "ဟင်္သာတ"
+		},
+		{
+			"TS_PCODE": "MMR017009",
+			"TS_NAME": "Zalun",
+			"TS_MM_NAME": "ဇလွန်"
+		},
+		{
+			"TS_PCODE": "MMR017010",
+			"TS_NAME": "Lemyethna",
+			"TS_MM_NAME": "လေးမျက်နှာ"
+		},
+		{
+			"TS_PCODE": "MMR017011",
+			"TS_NAME": "Myanaung",
+			"TS_MM_NAME": "မြန်အောင်"
+		},
+		{
+			"TS_PCODE": "MMR017012",
+			"TS_NAME": "Kyangin",
+			"TS_MM_NAME": "ကြံခင်း"
+		},
+		{
+			"TS_PCODE": "MMR017013",
+			"TS_NAME": "Ingapu",
+			"TS_MM_NAME": "အင်္ဂပူ"
+		},
+		{
+			"TS_PCODE": "MMR017014",
+			"TS_NAME": "Myaungmya",
+			"TS_MM_NAME": "မြောင်းမြ"
+		},
+		{
+			"TS_PCODE": "MMR017015",
+			"TS_NAME": "Einme",
+			"TS_MM_NAME": "အိမ္မဲ"
+		},
+		{
+			"TS_PCODE": "MMR017016",
+			"TS_NAME": "Labutta",
+			"TS_MM_NAME": "လပွတ္တာ"
+		},
+		{
+			"TS_PCODE": "MMR017017",
+			"TS_NAME": "Wakema",
+			"TS_MM_NAME": "ဝါးခယ်မ"
+		},
+		{
+			"TS_PCODE": "MMR017018",
+			"TS_NAME": "Mawlamyinegyun",
+			"TS_MM_NAME": "မော်လမြိုင်ကျွန်း"
+		},
+		{
+			"TS_PCODE": "MMR017019",
+			"TS_NAME": "Maubin",
+			"TS_MM_NAME": "မအူပင်"
+		},
+		{
+			"TS_PCODE": "MMR017020",
+			"TS_NAME": "Pantanaw",
+			"TS_MM_NAME": "ပန်းတနော်"
+		},
+		{
+			"TS_PCODE": "MMR017021",
+			"TS_NAME": "Nyaungdon",
+			"TS_MM_NAME": "ညောင်တုန်း"
+		},
+		{
+			"TS_PCODE": "MMR017022",
+			"TS_NAME": "Danubyu",
+			"TS_MM_NAME": "ဓနုဖြူ"
+		},
+		{
+			"TS_PCODE": "MMR017023",
+			"TS_NAME": "Pyapon",
+			"TS_MM_NAME": "ဖျာပုံ"
+		},
+		{
+			"TS_PCODE": "MMR017024",
+			"TS_NAME": "Bogale",
+			"TS_MM_NAME": "ဘိုကလေး"
+		},
+		{
+			"TS_PCODE": "MMR017025",
+			"TS_NAME": "Kyaiklat",
+			"TS_MM_NAME": "ကျိုက်လတ်"
+		},
+		{
+			"TS_PCODE": "MMR017026",
+			"TS_NAME": "Dedaye",
+			"TS_MM_NAME": "ဒေးဒရဲ"
+		}
+	],
+	"MMR018": [
+		{
+			"TS_PCODE": "MMR018001",
+			"TS_NAME": "Zay Yar Thi Ri",
+			"TS_MM_NAME": "ဇေယျာသီရိ"
+		},
+		{
+			"TS_PCODE": "MMR018002",
+			"TS_NAME": "Za Bu Thi Ri",
+			"TS_MM_NAME": "ဇမ္ဗူသီရိ"
+		},
+		{
+			"TS_PCODE": "MMR018003",
+			"TS_NAME": "Tatkon",
+			"TS_MM_NAME": "တပ်ကုန်း"
+		},
+		{
+			"TS_PCODE": "MMR018004",
+			"TS_NAME": "Det Khi Na Thi Ri",
+			"TS_MM_NAME": "ဒက္ခိဏသီရိ"
+		},
+		{
+			"TS_PCODE": "MMR018005",
+			"TS_NAME": "Poke Ba Thi Ri",
+			"TS_MM_NAME": "ပုဗ္ဗသီရိ"
+		},
+		{
+			"TS_PCODE": "MMR018006",
+			"TS_NAME": "Pyinmana",
+			"TS_MM_NAME": "ပျဉ်းမနား"
+		},
+		{
+			"TS_PCODE": "MMR018007",
+			"TS_NAME": "Lewe",
+			"TS_MM_NAME": "လယ်ဝေး"
+		},
+		{
+			"TS_PCODE": "MMR018008",
+			"TS_NAME": "Oke Ta Ra Thi Ri",
+			"TS_MM_NAME": "ဥတ္တရသီရိ"
+		}
+	],
+	"MMR111": [
+		{
+			"TS_PCODE": "MMR007001",
+			"TS_NAME": "Bago",
+			"TS_MM_NAME": "ပဲခူး"
+		},
+		{
+			"TS_PCODE": "MMR007002",
+			"TS_NAME": "Thanatpin",
+			"TS_MM_NAME": "သနပ်ပင်"
+		},
+		{
+			"TS_PCODE": "MMR007003",
+			"TS_NAME": "Kawa",
+			"TS_MM_NAME": "ကဝ"
+		},
+		{
+			"TS_PCODE": "MMR007004",
+			"TS_NAME": "Waw",
+			"TS_MM_NAME": "ဝေါ"
+		},
+		{
+			"TS_PCODE": "MMR007005",
+			"TS_NAME": "Nyaunglebin",
+			"TS_MM_NAME": "ညောင်လေးပင်"
+		},
+		{
+			"TS_PCODE": "MMR007006",
+			"TS_NAME": "Kyauktaga",
+			"TS_MM_NAME": "ကျောက်တံခါး"
+		},
+		{
+			"TS_PCODE": "MMR007007",
+			"TS_NAME": "Daik-U",
+			"TS_MM_NAME": "ဒိုက်ဦး"
+		},
+		{
+			"TS_PCODE": "MMR007008",
+			"TS_NAME": "Shwegyin",
+			"TS_MM_NAME": "ရွှေကျင်"
+		},
+		{
+			"TS_PCODE": "MMR007009",
+			"TS_NAME": "Taungoo",
+			"TS_MM_NAME": "တောင်ငူ"
+		},
+		{
+			"TS_PCODE": "MMR007010",
+			"TS_NAME": "Yedashe",
+			"TS_MM_NAME": "ရေတာရှည်"
+		},
+		{
+			"TS_PCODE": "MMR007011",
+			"TS_NAME": "Kyaukkyi",
+			"TS_MM_NAME": "ကျောက်ကြီး"
+		},
+		{
+			"TS_PCODE": "MMR007012",
+			"TS_NAME": "Phyu",
+			"TS_MM_NAME": "ဖြူး"
+		},
+		{
+			"TS_PCODE": "MMR007013",
+			"TS_NAME": "Oktwin",
+			"TS_MM_NAME": "အုတ်တွင်း"
+		},
+		{
+			"TS_PCODE": "MMR007014",
+			"TS_NAME": "Htantabin",
+			"TS_MM_NAME": "ထန်းတပင်"
+		},
+		{
+			"TS_PCODE": "MMR008001",
+			"TS_NAME": "Pyay",
+			"TS_MM_NAME": "ပြည်"
+		},
+		{
+			"TS_PCODE": "MMR008002",
+			"TS_NAME": "Paukkhaung",
+			"TS_MM_NAME": "ပေါက်ခေါင်း"
+		},
+		{
+			"TS_PCODE": "MMR008003",
+			"TS_NAME": "Padaung",
+			"TS_MM_NAME": "ပန်းတောင်း"
+		},
+		{
+			"TS_PCODE": "MMR008004",
+			"TS_NAME": "Paungde",
+			"TS_MM_NAME": "ပေါင်းတည်"
+		},
+		{
+			"TS_PCODE": "MMR008005",
+			"TS_NAME": "Thegon",
+			"TS_MM_NAME": "သဲကုန်း"
+		},
+		{
+			"TS_PCODE": "MMR008006",
+			"TS_NAME": "Shwedaung",
+			"TS_MM_NAME": "ရွှေတောင်"
+		},
+		{
+			"TS_PCODE": "MMR008007",
+			"TS_NAME": "Thayarwady",
+			"TS_MM_NAME": "သာယာဝတီ"
+		},
+		{
+			"TS_PCODE": "MMR008008",
+			"TS_NAME": "Letpadan",
+			"TS_MM_NAME": "လက်ပံတန်း"
+		},
+		{
+			"TS_PCODE": "MMR008009",
+			"TS_NAME": "Minhla",
+			"TS_MM_NAME": "မင်းလှ"
+		},
+		{
+			"TS_PCODE": "MMR008010",
+			"TS_NAME": "Okpho",
+			"TS_MM_NAME": "အုတ်ဖို"
+		},
+		{
+			"TS_PCODE": "MMR008011",
+			"TS_NAME": "Zigon",
+			"TS_MM_NAME": "ဇီးကုန်း"
+		},
+		{
+			"TS_PCODE": "MMR008012",
+			"TS_NAME": "Nattalin",
+			"TS_MM_NAME": "နတ္တလင်း"
+		},
+		{
+			"TS_PCODE": "MMR008013",
+			"TS_NAME": "Monyo",
+			"TS_MM_NAME": "မိုးညို"
+		},
+		{
+			"TS_PCODE": "MMR008014",
+			"TS_NAME": "Gyobingauk",
+			"TS_MM_NAME": "ကြို့ပင်ကောက်"
+		}
+	],
+	"MMR222": [
+		{
+			"TS_PCODE": "MMR014001",
+			"TS_NAME": "Taunggyi",
+			"TS_MM_NAME": "တောင်ကြီး"
+		},
+		{
+			"TS_PCODE": "MMR014002",
+			"TS_NAME": "Nyaungshwe",
+			"TS_MM_NAME": "ညောင်ရွှေ"
+		},
+		{
+			"TS_PCODE": "MMR014003",
+			"TS_NAME": "Hopong",
+			"TS_MM_NAME": "ဟိုပုံး"
+		},
+		{
+			"TS_PCODE": "MMR014004",
+			"TS_NAME": "Hsihseng",
+			"TS_MM_NAME": "ဆီဆိုင်"
+		},
+		{
+			"TS_PCODE": "MMR014005",
+			"TS_NAME": "Kalaw",
+			"TS_MM_NAME": "ကလော"
+		},
+		{
+			"TS_PCODE": "MMR014006",
+			"TS_NAME": "Pindaya",
+			"TS_MM_NAME": "ပင်းတယ"
+		},
+		{
+			"TS_PCODE": "MMR014007",
+			"TS_NAME": "Ywangan",
+			"TS_MM_NAME": "ရွာငံ"
+		},
+		{
+			"TS_PCODE": "MMR014008",
+			"TS_NAME": "Lawksawk",
+			"TS_MM_NAME": "ရပ်စောက်"
+		},
+		{
+			"TS_PCODE": "MMR014009",
+			"TS_NAME": "Pinlaung",
+			"TS_MM_NAME": "ပင်လောင်း"
+		},
+		{
+			"TS_PCODE": "MMR014010",
+			"TS_NAME": "Pekon",
+			"TS_MM_NAME": "ဖယ်ခုံ"
+		},
+		{
+			"TS_PCODE": "MMR014011",
+			"TS_NAME": "Loilen",
+			"TS_MM_NAME": "လွိုင်လင်"
+		},
+		{
+			"TS_PCODE": "MMR014012",
+			"TS_NAME": "Laihka",
+			"TS_MM_NAME": "လဲချား"
+		},
+		{
+			"TS_PCODE": "MMR014013",
+			"TS_NAME": "Nansang",
+			"TS_MM_NAME": "နမ့်စန်"
+		},
+		{
+			"TS_PCODE": "MMR014014",
+			"TS_NAME": "Kunhing",
+			"TS_MM_NAME": "ကွန်ဟိန်း"
+		},
+		{
+			"TS_PCODE": "MMR014015",
+			"TS_NAME": "Kyethi",
+			"TS_MM_NAME": "ကျေးသီး"
+		},
+		{
+			"TS_PCODE": "MMR014016",
+			"TS_NAME": "Mongkaing",
+			"TS_MM_NAME": "မိုင်းကိုင်"
+		},
+		{
+			"TS_PCODE": "MMR014017",
+			"TS_NAME": "Monghsu",
+			"TS_MM_NAME": "မိုင်းရှုး"
+		},
+		{
+			"TS_PCODE": "MMR014018",
+			"TS_NAME": "Langkho",
+			"TS_MM_NAME": "လင်းခေး"
+		},
+		{
+			"TS_PCODE": "MMR014019",
+			"TS_NAME": "Mongnai",
+			"TS_MM_NAME": "မိုးနဲ"
+		},
+		{
+			"TS_PCODE": "MMR014020",
+			"TS_NAME": "Mawkmai",
+			"TS_MM_NAME": "မောက်မယ်"
+		},
+		{
+			"TS_PCODE": "MMR014021",
+			"TS_NAME": "Mongpan",
+			"TS_MM_NAME": "မိုင်းပန်"
+		},
+		{
+			"TS_PCODE": "MMR015001",
+			"TS_NAME": "Lashio",
+			"TS_MM_NAME": "လားရှိုး"
+		},
+		{
+			"TS_PCODE": "MMR015002",
+			"TS_NAME": "Hseni",
+			"TS_MM_NAME": "သိန်းနီ"
+		},
+		{
+			"TS_PCODE": "MMR015003",
+			"TS_NAME": "Mongyai",
+			"TS_MM_NAME": "မိုင်းရယ်"
+		},
+		{
+			"TS_PCODE": "MMR015004",
+			"TS_NAME": "Tangyan",
+			"TS_MM_NAME": "တန့်ယန်း"
+		},
+		{
+			"TS_PCODE": "MMR015005",
+			"TS_NAME": "Pangsang",
+			"TS_MM_NAME": "ပန်ဆန်း"
+		},
+		{
+			"TS_PCODE": "MMR015006",
+			"TS_NAME": "Narphan",
+			"TS_MM_NAME": "နားဖန့်"
+		},
+		{
+			"TS_PCODE": "MMR015007",
+			"TS_NAME": "Pangwaun",
+			"TS_MM_NAME": "ပန်ဝိုင်း"
+		},
+		{
+			"TS_PCODE": "MMR015008",
+			"TS_NAME": "Mongmao",
+			"TS_MM_NAME": "မိုင်းမော"
+		},
+		{
+			"TS_PCODE": "MMR015009",
+			"TS_NAME": "Muse",
+			"TS_MM_NAME": "မူဆယ်"
+		},
+		{
+			"TS_PCODE": "MMR015010",
+			"TS_NAME": "Namhkan",
+			"TS_MM_NAME": "နမ့်ခမ်း"
+		},
+		{
+			"TS_PCODE": "MMR015011",
+			"TS_NAME": "Kutkai",
+			"TS_MM_NAME": "ကွတ်ခိုင်"
+		},
+		{
+			"TS_PCODE": "MMR015012",
+			"TS_NAME": "Kyaukme",
+			"TS_MM_NAME": "ကျောက်မဲ"
+		},
+		{
+			"TS_PCODE": "MMR015013",
+			"TS_NAME": "Nawnghkio",
+			"TS_MM_NAME": "နောင်ချို"
+		},
+		{
+			"TS_PCODE": "MMR015014",
+			"TS_NAME": "Hsipaw",
+			"TS_MM_NAME": "သီပေါ"
+		},
+		{
+			"TS_PCODE": "MMR015015",
+			"TS_NAME": "Namtu",
+			"TS_MM_NAME": "နမ္မတူ"
+		},
+		{
+			"TS_PCODE": "MMR015016",
+			"TS_NAME": "Namhsan",
+			"TS_MM_NAME": "နမ့်ဆန်"
+		},
+		{
+			"TS_PCODE": "MMR015017",
+			"TS_NAME": "Mongmit",
+			"TS_MM_NAME": "မိုးမိတ်"
+		},
+		{
+			"TS_PCODE": "MMR015018",
+			"TS_NAME": "Mabein",
+			"TS_MM_NAME": "မဘိမ်း"
+		},
+		{
+			"TS_PCODE": "MMR015019",
+			"TS_NAME": "Manton",
+			"TS_MM_NAME": "မန်တုန်"
+		},
+		{
+			"TS_PCODE": "MMR015020",
+			"TS_NAME": "Kunlong",
+			"TS_MM_NAME": "ကွမ်းလုံ"
+		},
+		{
+			"TS_PCODE": "MMR015021",
+			"TS_NAME": "Hopang",
+			"TS_MM_NAME": "ဟိုပန်"
+		},
+		{
+			"TS_PCODE": "MMR015022",
+			"TS_NAME": "Laukkaing",
+			"TS_MM_NAME": "လောက်ကိုင်"
+		},
+		{
+			"TS_PCODE": "MMR015023",
+			"TS_NAME": "Konkyan",
+			"TS_MM_NAME": "ကုန်းကြမ်း"
+		},
+		{
+			"TS_PCODE": "MMR015024",
+			"TS_NAME": "Matman",
+			"TS_MM_NAME": "မက်မန်း"
+		},
+		{
+			"TS_PCODE": "MMR016001",
+			"TS_NAME": "Kengtung",
+			"TS_MM_NAME": "ကျိုင်းတုံ"
+		},
+		{
+			"TS_PCODE": "MMR016002",
+			"TS_NAME": "Mongkhet",
+			"TS_MM_NAME": "မိုင်းခတ်"
+		},
+		{
+			"TS_PCODE": "MMR016003",
+			"TS_NAME": "Mongyang",
+			"TS_MM_NAME": "မိုင်းယန်း"
+		},
+		{
+			"TS_PCODE": "MMR016005",
+			"TS_NAME": "Mongla",
+			"TS_MM_NAME": "မိုင်းလား"
+		},
+		{
+			"TS_PCODE": "MMR016006",
+			"TS_NAME": "Monghsat",
+			"TS_MM_NAME": "မိုင်းဆတ်"
+		},
+		{
+			"TS_PCODE": "MMR016007",
+			"TS_NAME": "Mongping",
+			"TS_MM_NAME": "မိုင်းပျင်း"
+		},
+		{
+			"TS_PCODE": "MMR016008",
+			"TS_NAME": "Mongton",
+			"TS_MM_NAME": "မိုင်းတုံ"
+		},
+		{
+			"TS_PCODE": "MMR016009",
+			"TS_NAME": "Tachileik",
+			"TS_MM_NAME": "တာချီလိတ်"
+		},
+		{
+			"TS_PCODE": "MMR016010",
+			"TS_NAME": "Monghpyak",
+			"TS_MM_NAME": "မိုင်းဖြတ်"
+		},
+		{
+			"TS_PCODE": "MMR016011",
+			"TS_NAME": "Mongyawng",
+			"TS_MM_NAME": "မိုင်းယောင်း"
+		}
+	]
+}

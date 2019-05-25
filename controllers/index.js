@@ -1,6 +1,7 @@
 const csvtojson = require('csvtojson')
 const excelToJson = require('convert-excel-to-json')
 const { mmrList, csvList, xlsxList, imageList } = require('../config')
+const townshipList = require('../data/townships.json')
 
 const getDivisions = async (req, res) => {
   try {
@@ -21,13 +22,11 @@ const getDivisions = async (req, res) => {
 
 const getCategories = async (req, res) => {
   try {
-    const categories = Object.keys(csvList).reduce((result, key) => {
-      result.push({
-        id: key,
-        townships
-      })
-      return result
-    }, [])
+    const { divisionId } = req.params
+    const categories = {
+      ids: Object.keys(csvList),
+      townships: townshipList[divisionId]
+    }
     return res.status(200).json({ data: categories })
   } catch (error) {
     return res.status(error.statusCode || 500).json({ message: error.message })
@@ -36,18 +35,8 @@ const getCategories = async (req, res) => {
 
 const getDataSet = async (req, res) => {
   try {
-    const { dataSetName } = req.params
     const { division, filter } = req.query
-    const defaultArr = [
-      'SR_PCODE',
-      'SR_NAME',
-      'SR_MM_NAME',
-      'TS_PCODE',
-      'TS_NAME',
-      'DISHEAR_N_T'
-    ]
-    const filterArr = filter ? [...JSON.parse(filter), ...defaultArr] : false
-
+    const { dataSetName } = req.params
     if (!xlsxList[dataSetName]) {
       return res.status(404).json({ message: 'Not found' })
     }
@@ -56,6 +45,16 @@ const getDataSet = async (req, res) => {
     })
     const DISHEAR = xlsxJson[Object.keys(xlsxJson)[0]]
     const dataKey = Object.values(DISHEAR[2])
+    const defaultArr = [
+      'SR_PCODE',
+      'SR_NAME',
+      'SR_MM_NAME',
+      'TS_PCODE',
+      'TS_NAME',
+      'TS_MM_NAME'
+    ]
+    const filterArr = filter ? [...JSON.parse(filter), ...defaultArr] : false
+
     const en = dataKey.reduce(
       (obj, k, i) => ({ ...obj, [k]: Object.values(DISHEAR[0])[i] }),
       {}
@@ -105,7 +104,15 @@ const getDataSet = async (req, res) => {
         DIVISION_IMAGE: divisionImage
       }
       townships[key].forEach(t => {
-        divisions.push(t['SR_MM_NAME'])
+        const tKey = Object.keys(t)
+        divisions.push({
+          SR_PCODE: t[tKey.shift()],
+          SR_NAME: t[tKey.shift()],
+          SR_MM_NAME: t[tKey.shift()],
+          TS_PCODE: t[tKey.shift()],
+          TS_NAME: t[tKey.shift()],
+          TS_MM_NAME: t[tKey.shift()]
+        })
         delete t['SR_PCODE']
         delete t['SR_NAME']
         delete t['SR_MM_NAME']
@@ -118,7 +125,7 @@ const getDataSet = async (req, res) => {
       })
     })
 
-    res.status(200).json({ data, en, mm, divisions })
+    res.status(200).json({ divisions })
   } catch (error) {
     res.status(error.statusCode || 500).json({ message: error.message })
   }
