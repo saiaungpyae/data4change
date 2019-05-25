@@ -5,8 +5,8 @@ MMHealthCare is a cross-platform application developed during Data4Change Hackat
 # Installation
 
 ```sh
-git clone 
-cd data4change
+git clone https://github.com/saiaungpyae/data4change.git
+cd data4change 
 npm install
 npm start
 ```
