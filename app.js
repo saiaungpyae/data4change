@@ -38,9 +38,6 @@ app.all('*', (req, res) => {
   res.status(404).json({ message: '404 Not Found' })
 })
 
-// console.log(
-//   glob.sync(path.join(__dirname, 'public', 'images', 'divisions', '*.png'))
-// )
 // Start Server
 let port = process.env.PORT || 3000
 app.listen(port, () => {
