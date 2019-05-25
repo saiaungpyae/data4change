@@ -98,7 +98,6 @@ const getDataSet = async (req, res) => {
       }
     }
 
-    let divisions = []
     Object.keys(townships).forEach(key => {
       const township = townships[key][0]
       const divisionImage = `${req.protocol}://${req.headers.host}/${
@@ -112,14 +111,6 @@ const getDataSet = async (req, res) => {
       }
       townships[key].forEach(t => {
         const tKey = Object.keys(t)
-        divisions.push({
-          SR_PCODE: t[tKey.shift()],
-          SR_NAME: t[tKey.shift()],
-          SR_MM_NAME: t[tKey.shift()],
-          TS_PCODE: t[tKey.shift()],
-          TS_NAME: t[tKey.shift()],
-          TS_MM_NAME: t[tKey.shift()]
-        })
         delete t['SR_PCODE']
         delete t['SR_NAME']
         delete t['SR_MM_NAME']
