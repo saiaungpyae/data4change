@@ -1,6 +1,12 @@
 const csvtojson = require('csvtojson')
 const excelToJson = require('convert-excel-to-json')
-const { mmrList, csvList, xlsxList, imageList } = require('../config')
+const {
+  mmrList,
+  csvList,
+  xlsxList,
+  imageList,
+  categoryList
+} = require('../config')
 const townshipList = require('../data/townships.json')
 
 const getDivisions = async (req, res) => {
@@ -24,7 +30,7 @@ const getCategories = async (req, res) => {
   try {
     const { divisionId } = req.params
     const categories = {
-      ids: Object.keys(csvList),
+      ids: categoryList,
       townships: townshipList[divisionId]
     }
     return res.status(200).json({ data: categories })

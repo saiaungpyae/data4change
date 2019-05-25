@@ -105,6 +105,18 @@ const xlsxList = {
   'most-disease': 'GAD1617_M7E_MostDiseaseInRegion_20190514.xlsx',
   'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.xlsx'
 }
+const categoryList = [
+  'Hearing Disability',
+  'Remembering Disability',
+  'Seeing Disability',
+  'Walking Disability',
+  'Hospitals',
+  'Clinics',
+  'Rural Health',
+  'Health Care Personal',
+  'Most Disease',
+  'Hiv Aids'
+]
 
 Object.keys(csvList).map(key => {
   csvList[key] = path.join(filePath, csvList[key])
@@ -115,4 +127,4 @@ Object.keys(imageList).forEach(mmr => {
   imageList[mmr] = `images/divisions/${imageList[mmr]}`
 })
 
-module.exports = { csvList, xlsxList, mmrList, imageList }
+module.exports = { csvList, xlsxList, mmrList, imageList, categoryList }
