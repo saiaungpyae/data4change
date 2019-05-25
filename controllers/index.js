@@ -38,7 +38,7 @@ const APPLICATION_INFO = async (req, res) => {
       const keys = Object.keys(obj)
 
       townships[SR_PCODE] = townships[SR_PCODE] || []
-      townships[SR_PCODE].push(townshipData)
+      townships[SR_PCODE].push(obj)
 
       for (const key of keys) {
         const count = +obj[key]
