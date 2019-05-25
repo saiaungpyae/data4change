@@ -41,7 +41,7 @@ const getCategories = async (req, res) => {
 
 const getDataSet = async (req, res) => {
   try {
-    const { division, filter } = req.query
+    const { division, township, filter } = req.query
     const { dataSetName } = req.params
     if (!xlsxList[dataSetName]) {
       return res.status(404).json({ message: 'Not found' })
@@ -81,6 +81,7 @@ const getDataSet = async (req, res) => {
       const keys = Object.keys(obj)
 
       if (division && division !== SR_PCODE) continue
+      if (township && township !== obj['TS_PCODE']) continue
 
       townships[SR_PCODE] = townships[SR_PCODE] || []
       townships[SR_PCODE].push(obj)
