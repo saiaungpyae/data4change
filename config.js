@@ -19,24 +19,28 @@ const mmrList = {
   MMR018: 'Naypyitaw.png'
 }
 const csvList = {
-  HearingDisability: 'CS14_HearingDisability_20190510.csv',
-  RememberingDisability: 'CS14_RememberingDisability_20190510.csv',
-  SeeingDisability: 'CS14_SeeingDisability_20190510.csv',
-  WalkingDisability: 'CS14_WalkingDisability_20190510.csv',
-  Hospitals: 'GAD1617_M7A_Hospitals_20190514.csv',
-  Clinics: 'GAD1617_M7B_Clinics_20190514.csv',
-  RuralHealth: 'GAD1617_M7C_RuralHealth_20190514.csv',
-  HealthCarePersonal: 'GAD1617_M7D_HealthCarePersonal_20190514.csv'
+  'hearing-disability': 'CS14_HearingDisability_20190510.csv',
+  'remembering-disability': 'CS14_RememberingDisability_20190510.csv',
+  'seeing-disability': 'CS14_SeeingDisability_20190510.csv',
+  'walking-disability': 'CS14_WalkingDisability_20190510.csv',
+  'hospitals': 'GAD1617_M7A_Hospitals_20190514.csv', // prettier-ignore
+  'clinics': 'GAD1617_M7B_Clinics_20190514.csv', // prettier-ignore
+  'rural-health': 'GAD1617_M7C_RuralHealth_20190514.csv',
+  'health-care-personal': 'GAD1617_M7D_HealthCarePersonal_20190514.csv',
+  'most-disease': 'GAD1617_M7E_MostDiseaseInRegion_20190514.csv',
+  'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.csv'
 }
 const xlsxList = {
-  HearingDisability: 'CS14_HearingDisability_20190510.xlsx',
-  RememberingDisability: 'CS14_RememberingDisability_20190510.xlsx',
-  SeeingDisability: 'CS14_SeeingDisability_20190510.xlsx',
-  WalkingDisability: 'CS14_WalkingDisability_20190510.xlsx',
-  Hospitals: 'GAD1617_M7A_Hospitals_20190514.xlsx',
-  Clinics: 'GAD1617_M7B_Clinics_20190514.xlsx',
-  RuralHealth: 'GAD1617_M7C_RuralHealth_20190514.xlsx',
-  HealthCarePersonal: 'GAD1617_M7D_HealthCarePersonal_20190514.xlsx'
+  'hearing-disability': 'CS14_HearingDisability_20190510.xlsx',
+  'remembering-disability': 'CS14_RememberingDisability_20190510.xlsx',
+  'seeing-disability': 'CS14_SeeingDisability_20190510.xlsx',
+  'walking-disability': 'CS14_WalkingDisability_20190510.xlsx',
+  'hospitals': 'GAD1617_M7A_Hospitals_20190514.xlsx', // prettier-ignore
+  'clinics': 'GAD1617_M7B_Clinics_20190514.xlsx', // prettier-ignore
+  'rural-health': 'GAD1617_M7C_RuralHealth_20190514.xlsx',
+  'health-care-personal': 'GAD1617_M7D_HealthCarePersonal_20190514.xlsx',
+  'most-disease': 'GAD1617_M7E_MostDiseaseInRegion_20190514.xlsx',
+  'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.xlsx'
 }
 
 Object.keys(csvList).map(key => {

@@ -4,10 +4,14 @@ const { mmrList, csvList, xlsxList } = require('../config')
 
 const hearingDisability = async (req, res) => {
   try {
+    const { dataSetName } = req.params
+    if (!xlsxList[dataSetName]) {
+      return res.status(404).json({ message: 'Not found' })
+    }
     const xlsxJson = excelToJson({
-      sourceFile: xlsxList.HearingDisability
+      sourceFile: xlsxList[dataSetName]
     })
-    const DISHEAR = xlsxJson.DISHEAR
+    const DISHEAR = xlsxJson[Object.keys(xlsxJson)[0]]
     const dataKey = Object.values(DISHEAR[2])
     const en = dataKey.reduce(
       (obj, k, i) => ({ ...obj, [k]: Object.values(DISHEAR[0])[i] }),
@@ -17,7 +21,7 @@ const hearingDisability = async (req, res) => {
       (obj, k, i) => ({ ...obj, [k]: Object.values(DISHEAR[1])[i] }),
       {}
     )
-    const csvJson = await csvtojson().fromFile(csvList.HearingDisability)
+    const csvJson = await csvtojson().fromFile(csvList[dataSetName])
 
     let data = []
     let townships = {}
