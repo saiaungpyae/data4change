@@ -31,7 +31,14 @@ const getDataSet = async (req, res) => {
   try {
     const { dataSetName } = req.params
     const { division, filter } = req.query
-    const defaultArr = ['TS_PCODE', 'TS_NAME', 'DISHEAR_N_T']
+    const defaultArr = [
+      'SR_PCODE',
+      'SR_NAME',
+      'SR_MM_NAME',
+      'TS_PCODE',
+      'TS_NAME',
+      'DISHEAR_N_T'
+    ]
     const filterArr = filter ? [...JSON.parse(filter), ...defaultArr] : false
 
     if (!xlsxList[dataSetName]) {
@@ -50,12 +57,12 @@ const getDataSet = async (req, res) => {
       (obj, k, i) => ({ ...obj, [k]: Object.values(DISHEAR[1])[i] }),
       {}
     )
+
     const csvJson = await csvtojson().fromFile(csvList[dataSetName])
 
     let data = []
     let townships = {}
     let totals = {}
-    let township = {}
 
     for (const obj of csvJson) {
       const SR_PCODE = obj['SR_PCODE']
@@ -63,10 +70,7 @@ const getDataSet = async (req, res) => {
 
       if (division && division !== SR_PCODE) continue
 
-      if (!townships[SR_PCODE]) {
-        townships[SR_PCODE] = []
-        township = JSON.parse(JSON.stringify(obj))
-      }
+      townships[SR_PCODE] = townships[SR_PCODE] || []
       townships[SR_PCODE].push(obj)
       for (const key of keys) {
         if (filterArr && !filterArr.includes(key)) delete obj[key]
@@ -82,6 +86,7 @@ const getDataSet = async (req, res) => {
     }
 
     Object.keys(townships).forEach(key => {
+      const township = townships[key][0]
       const divisionImage = `${req.protocol}://${req.headers.host}/${
         mmrList[township['SR_PCODE']]
       }`
