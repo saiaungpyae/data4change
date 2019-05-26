@@ -91,7 +91,10 @@ const csvList = {
   'rural-health': 'GAD1617_M7C_RuralHealth_20190514.csv',
   'health-care-personal': 'GAD1617_M7D_HealthCarePersonal_20190514.csv',
   'most-disease': 'GAD1617_M7E_MostDiseaseInRegion_20190514.csv',
-  'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.csv'
+  'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.csv',
+  'phone': 'CS14_Phone_20190510.csv', // prettier-ignore
+  'television': 'Census2014_TV_20190510.csv', // prettier-ignore
+  'radio': 'Census2014_Radio_20190510.csv' // prettier-ignore
 }
 const xlsxList = {
   'hearing-disability': 'CS14_HearingDisability_20190510.xlsx',
@@ -103,7 +106,10 @@ const xlsxList = {
   'rural-health': 'GAD1617_M7C_RuralHealth_20190514.xlsx',
   'health-care-personal': 'GAD1617_M7D_HealthCarePersonal_20190514.xlsx',
   'most-disease': 'GAD1617_M7E_MostDiseaseInRegion_20190514.xlsx',
-  'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.xlsx'
+  'hiv-aids': 'GAD1617_M7F_HIVAIDSPersonsanddeaths_20190514.xlsx',
+  'phone': 'CS14_Phone_20190510.xlsx', // prettier-ignore
+  'television': 'Census2014_TV_20190510.xlsx', // prettier-ignore
+  'radio': 'Census2014_Radio_20190510.xlsx' // prettier-ignore
 }
 const categoryList = [
   'Remembering Disability',
@@ -114,8 +120,11 @@ const categoryList = [
   'Hospitals',
   'Clinics',
   'Rural Health',
-  'Health Care Personal',
-  'Hiv Aids'
+  'Healthcare Personal',
+  'Hiv Aids',
+  'Phone',
+  'Television',
+  'Radio'
 ]
 
 Object.keys(csvList).map(key => {

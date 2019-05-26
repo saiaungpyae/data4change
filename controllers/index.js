@@ -110,7 +110,6 @@ const getDataSet = async (req, res) => {
         DIVISION_IMAGE: divisionImage
       }
       townships[key].forEach(t => {
-        const tKey = Object.keys(t)
         delete t['SR_PCODE']
         delete t['SR_NAME']
         delete t['SR_MM_NAME']
